@@ -7,7 +7,7 @@ import { Form, Button } from 'react-bootstrap'
 const Query = () => {   
     const style = {
       margin: 'auto',
-      opacity: '0.7',
+      opacity: '0.9',
       width: '20%',
       padding: '10px',
       border: '1px solid black',

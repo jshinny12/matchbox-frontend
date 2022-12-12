@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { animated, useSpring, config } from 'react-spring';
@@ -78,27 +79,6 @@ const Home = () => {
           <animated.p style={fadeInMessage}>
             Welcome to the ultimate gaming experience.
           </animated.p>
-          <animated.div style={fadeInButton}>
-            <Button
-              variant="primary"
-              size="lg"
-              onClick={() => scrollToRef(scrollRef)}
-              onMouseEnter={() =>
-                fadeInButton.set({
-                  color: '#00b8d4',
-                  backgroundColor: '#ffffff',
-                })
-              }
-              onMouseLeave={() =>
-                fadeInButton.set({
-                  color: '#ffffff',
-                  backgroundColor: '#00b8d4',
-                })
-              }
-            >
-              Explore
-            </Button>
-          </animated.div>
         </Col>
       </Row>
       <div ref={scrollRef} />
@@ -106,3 +86,4 @@ const Home = () => {
   )};
 
   export default Home;  
+

@@ -1,0 +1,109 @@
+.input {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .input .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input .form-control {
+    font-size: 16px;
+  }
+  
+  .input .form-label {
+    font-weight: bold;
+  }
+
+  .input .form-control-file {
+    font-size: 16px;
+  }
+  
+  .input .form-check {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .input .form-check-input {
+    margin-right: 10px;
+  }
+  
+  .input .form-check-label {
+    font-weight: normal;
+  }
+  
+  .input .form-check-inline {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .input .form-check-inline .form-check-input {
+    margin-right: 10px;
+  }
+
+  .input .form-control-range {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .input .form-inline {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .input .form-inline .form-control {
+    margin-right: 20px;
+  }
+  
+  .input .form-inline .form-check {
+    margin-right: 20px;
+  }
+  
+  .input .form-inline .form-check-label {
+    font-weight: normal;
+  }
+  
+  .input .form-row {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .input .form-row .form-control {
+    margin-right: 20px;
+  }
+  
+  .input .form-group-lg {
+    font-size: 18px;
+  }
+  
+  .input .form-group-sm {
+    font-size: 14px;
+  }
+  
+  .input .form-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .input .form-row-cols {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .input .form-row-cols .form-control {
+    margin-right: 20px;
+  }
+  
+  .input .form-group-checkbox {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .input .form-group-checkbox .form-check {
+    margin-right: 20px;
+  }
+  
